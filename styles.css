@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border: 2px solid grey;
+    width: 1000px;
+    height: 50px;
+}
+
+.Hsection1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: auto;
+    width: 150px;
+}
+
+.Hsection2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: auto;
+    width: 500px;
+}
+
+.Hsection3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    height: auto;
+    width: 150px;
+}
+
+.logo {
+    width: 120px;
+    height: 35px;
+}
+
+.option-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    background-color: white;
+    color: black;
+    border: 2px solid white;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.option-btn:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.login-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    color: black;
+    border: 2px solid lightgrey;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: lightgray;
+    color: black;
+}
